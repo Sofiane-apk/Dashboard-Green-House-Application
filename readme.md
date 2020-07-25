@@ -19,11 +19,11 @@ This  [Dashboard Green House.apk](https://github.com/Sofiane-apk/Dashboard-Green
 
 ## It comprises of Five layouts respectively.
 
- a.  activity_main.xml 	
- b.  activity_register.xml
- c.  activity_registration.xml.
- d. activity_start page.xml.
- e. resetpassword.xml.
+ 1.  activity_main.xml 	
+ 2.  activity_register.xml
+ 3.  activity_registration.xml.
+ 4. activity_start page.xml.
+ 5. resetpassword.xml.
 
 ## Snapshot
 ![enter image description here](https://i.ibb.co/KxCmrDP/Annotation-2020-07-17-010500.png)
@@ -32,10 +32,10 @@ This  [Dashboard Green House.apk](https://github.com/Sofiane-apk/Dashboard-Green
 ![enter image description here](https://i.ibb.co/7n75B81/Annotation-2020-07-17-011026.png)
 ![enter image description here](https://i.ibb.co/Y2Lj9nC/Annotation-2020-07-17-010743.png)
 ## Steps to run the app.
- a. Signup using the asked details and full fill all the requirements.
- b. check the email ,if the mail is not present in inbox check in AllMails option  of the Email id or check Internet connection.
- c. verify the email address by clicking on the link provided.
- d. Now sign in with the details you provided.
+1. Signup using the asked details and full fill all the requirements.
+2. check the email ,if the mail is not present in inbox check in AllMails option  of the Email id or check Internet connection.
+3. verify the email address by clicking on the link provided.
+4. Now sign in with the details you provided.
 
 **To run the app on your own database,follow the steps.**
 1. Add the project to the fire base.
