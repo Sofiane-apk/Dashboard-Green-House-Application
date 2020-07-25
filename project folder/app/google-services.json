@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "427046450456",
+    "firebase_url": "https://iot-green-house.firebaseio.com",
+    "project_id": "iot-green-house",
+    "storage_bucket": "iot-green-house.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427046450456:android:66841a5ffa5bec509a1a6d",
+        "android_client_info": {
+          "package_name": "com.example.smart_green_house"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427046450456-nc06o9bqq1odofd20ngsn50jorork0ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVc6faBBDin2xGsYuOr1BNyK3GvpvcZR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427046450456-nc06o9bqq1odofd20ngsn50jorork0ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
