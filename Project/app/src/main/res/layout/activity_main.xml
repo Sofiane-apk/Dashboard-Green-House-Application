@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#f3f4ee">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="25dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="Temperature"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.8"
+                    android:src="@drawable/temperature" />
+
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="No Data"
+                    android:textColor="#000000"
+                    android:textSize="40dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+
+
+                android:background="#f3f4ee">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="25dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="Humidity"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.8"
+                    android:src="@drawable/humidity" />
+
+                <TextView
+                    android:id="@+id/humidity"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="No Data"
+                    android:textColor="#000000"
+                    android:textSize="40dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#f3f4ee">
+
+                <ImageView
+                    android:id="@+id/imgSoil"
+                    android:layout_width="89dp"
+                    android:layout_height="95dp"
+                    android:layout_below="@id/textsoilsensor"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:alpha="0.8"
+                    android:src="@drawable/soil" />
+
+                <TextView
+                    android:id="@+id/textSoil"
+                    android:layout_width="160dp"
+                    android:layout_height="71dp"
+                    android:layout_below="@id/imgSoil"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_margin="10dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="No Data"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/textPumpstatu"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/textAutomaticmode"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="Pump status"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/imgpump"
+                    android:layout_width="98dp"
+                    android:layout_height="75dp"
+                    android:layout_below="@id/textPumpstatu"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginRight="30dp"
+
+                    android:alpha="0.8"
+                    android:src="@drawable/pumpicon" />
+
+                <TextView
+                    android:id="@+id/pump"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/imgpump"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_alignParentRight="true"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="No Data"
+                    android:textColor="#000000"
+                    android:textSize="40dp" />
+
+                <TextView
+                    android:id="@+id/textAutomaticmode"
+
+                    android:layout_width="215dp"
+                    android:layout_height="41dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+
+                    android:layout_marginTop="15dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="Automatic mode status"
+                    android:textColor="#000000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textsoilsensor"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/textAutomaticmode"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="68dp"
+                    android:alpha="0.8"
+                    android:gravity="center"
+                    android:text="Soil Sensor"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#f3f4ee">
+
+
+                <Button
+                    android:id="@+id/firebaseBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/buttonshape"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Pump"
+
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/firebaseBtnFan"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/buttonshape2"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Fan"
+
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/firebaseBtnLamp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="215dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/buttonshape3"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Lamp"
+
+                    android:textSize="20sp" />
+
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="95dp"
+                    android:layout_marginTop="10dp"
+                    android:text="  Manual  "
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
